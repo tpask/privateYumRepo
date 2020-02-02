@@ -1,0 +1,3 @@
+docker run command:
+docker build -t privateyumrepo
+docker run -td -p 80:80 -v /path/to/packages:/var/www/html/repos --name yumreop privateyumrepo
